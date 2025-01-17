@@ -5,11 +5,12 @@ read -p "PRESS ENTER TO CONTINUE...(1/8)"
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-read -p "PRESS ENTER TO CONTINUE...(2/8)"
+read -p "PRESS ENTER TO CONTINUE...(#2/8)"
 
-mv ./chrome-remote-desktop_current_amd64.deb ~/chrome-remote-desktop_current_amd64.deb
-mv ./google-chrome-stable_current_amd64.deb ~/google-chrome-stable_current_amd64.deb
-cd ~
+#mv ./thechromexfce.sh
+#mv ./chrome-remote-desktop_current_amd64.deb ~/chrome-remote-desktop_current_amd64.deb
+#mv ./google-chrome-stable_current_amd64.deb ~/google-chrome-stable_current_amd64.deb
+#cd ~
 
 read -p "PRESS ENTER TO CONTINUE...(3/8)"
 
