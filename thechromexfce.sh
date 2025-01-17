@@ -7,15 +7,17 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 read -p "PRESS ENTER TO CONTINUE...(2/8)"
 
-sudo apt install ./chrome-remote-desktop_current_amd64.deb
+mv ./chrome-remote-desktop_current_amd64.deb ~/chrome-remote-desktop_current_amd64.deb
+mv ./google-chrome-stable_current_amd64.deb ~/google-chrome-stable_current_amd64.deb
+cd ~
 
 read -p "PRESS ENTER TO CONTINUE...(3/8)"
 
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install ./chrome-remote-desktop_current_amd64.deb
 
 read -p "PRESS ENTER TO CONTINUE...(4/8)"
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 
 read -p "PRESS ENTER TO CONTINUE...(5/8)"
 
