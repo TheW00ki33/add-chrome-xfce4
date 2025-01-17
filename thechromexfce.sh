@@ -12,6 +12,8 @@ read -p "PRESS ENTER TO CONTINUE...(#2/8)"
 #mv ./google-chrome-stable_current_amd64.deb ~/google-chrome-stable_current_amd64.deb
 #cd ~
 
+sudo chmod +x chrome-remote-desktop_current_amd64.deb && sudo chmod +x google-chrome-stable_current_amd64.deb
+
 read -p "PRESS ENTER TO CONTINUE...(3/8)"
 
 sudo apt-get install ./chrome-remote-desktop_current_amd64.deb
