@@ -14,11 +14,11 @@ read -p "PRESS ENTER TO CONTINUE...(#2/8)"
 
 read -p "PRESS ENTER TO CONTINUE...(3/8)"
 
-sudo apt install ./chrome-remote-desktop_current_amd64.deb
+sudo apt-get install ./chrome-remote-desktop_current_amd64.deb
 
 read -p "PRESS ENTER TO CONTINUE...(4/8)"
 
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt-get install ./google-chrome-stable_current_amd64.deb
 
 read -p "PRESS ENTER TO CONTINUE...(5/8)"
 
